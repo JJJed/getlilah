@@ -5,7 +5,7 @@ function GameManager(size, InputManager, Actuator, ScoreManager) {
   this.actuator     = new Actuator;
 
   this.startTiles   = prompt("# of starting Lilahs:");
-  this.spawnVal = prompt("Which Lilahs would you like to spawn in?");
+  this.spawnVal = prompt("Which Lilah would you like to spawn in?");
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
