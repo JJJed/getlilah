@@ -24,6 +24,7 @@ h1.title {
   margin: 0;
   display: block;
   float: left;
+  text-shadow: 2px 2px #000000;
 }
 
 @-webkit-keyframes move-up {
@@ -133,6 +134,7 @@ a {
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
+  text-shadow: 1px 1px #000000;
 }
 
 strong.important {
@@ -1015,4 +1017,5 @@ hr {
 
 .blue {
   color: #1f47a3;
+  text-shadow: 1px 1px #000000;
 }
